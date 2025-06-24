@@ -1,18 +1,20 @@
-# 100 Days of Bug Bounty Hunting 🚀
+# 🛡️ 100 Days of Bug Bounty Learning
 
-Welcome to my journey of learning bug bounty hunting!  
-For the next 100 days, I will be documenting what I learn each day in a separate Markdown file.  
-Each file will cover a specific topic or vulnerability I explored that day.
+Welcome to my **100 Days of Bug Bounty Learning** challenge!  
+The goal of this challenge is to stay consistent and grow as a bug bounty learner and hunter by learning and documenting something new every day — whether it's a technique, vulnerability, tool, or real-world testing.
 
-## 📅 Daily Notes
-
-Below is the list of all days with links to their respective notes:
-
-- [Day 1 - Topic Name](./Day01.md)
-- [Day 2 - Topic Name](./Day02.md)
-- [Day 3 - Topic Name](./Day03.md)
-<!-- Add more days as you progress -->
 
 ---
 
-Stay tuned for daily updates!
+## Table of Contents
+
+| Day | Topic |
+|-----|-------|
+| [Day 1](./Day01.md) | Topic Name |
+| [Day 2](./Day02.md) | Topic Name |
+| [Day 3](./Day03.md) | Topic Name |
+<!-- Continue adding rows as you progress -->
+
+---
+
+Stay tuned as I learn, hunt, and grow through the world of ethical hacking and bug bounty. Let’s break things to build a safer web! 🕷️
