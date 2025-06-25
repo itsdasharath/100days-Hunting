@@ -10,9 +10,9 @@ The goal of this challenge is to stay consistent and grow as a bug bounty learne
 
 | Day | Topic |
 |-----|-------|
-|  1  | [Topic Name](./Days/Day01.md)      |
-|  2  | [Topic Name](./Days/Day02.md)      |
-|  3  | [Topic Name](./Days/Day03.md)      |
+|  1  | [Directory Traversal / Path Traversal](./Days/day01.md)      |
+|  2  | [Topic Name](./Days/day02.md)      |
+|  3  | [Topic Name](./Days/day03.md)      |
 <!-- Continue adding rows as you progress -->
 
 ---
