@@ -11,6 +11,9 @@ This vulnerability arises when user-supplied input is not properly sanitized bef
 GET /files/../../../etc/passwd HTTP/1.1
 Host: vulnerable-website.com
 ```
+### Example URL
+```https://vulnerable-website.com/files/../../../etc/passwd
+``` 
 
 ## 🔐 Payload Cheat Sheet
 
@@ -45,6 +48,41 @@ Host: vulnerable-website.com
 - Information leakage about server or environment
 - Possibility of remote code execution (via chained exploits)
 
+## 🛠 Tools for Testing
+
+### Dedicated Tools
+- [dotdotpwn](https://github.com/wireghoul/dotdotpwn) - Automated directory traversal tool  
+- [PathTraversalScanner](https://github.com/PathTraversalScanner) - Directory traversal scanner
+- [PathTraversal](https://github.com/PathTraversal) - Directory traversal tool
+
+### Common Tools
+- [Burp Suite](https://portswigger.net/burp) - Web vulnerability scanner
+- [OWASP ZAP](https://www.zaproxy.org/) - Open-source web application security scanner
+- [DirBuster](https://www.owasp.org/index.php/Category:DirBuster) - Directory brute-forcing tool
+- [Nikto](https://cirt.net/Nikto2) - Web server scanner
+- [Ffuf](https://github.com/ffuf/ffuf) - Fuzz faster U Fool
+
+### Ffuf Example
+```bash
+ffuf -u https://vulnerable-website.com/image?filename=FUZZ -w /path/to/wordlist.txt -fs 1234 -fc 403
+``` 
+
+## Articles
+- [Practical Guide Path Traversal Attacks](https://www.yeswehack.com/learn-bug-bounty/practical-guide-path-traversal-attacks)
+- [A Guide to Directory Traversal Vulnerability in 2024](https://medium.com/@certcube1/a-guide-to-directory-traversal-vulnerability-in-2024-50c5fafd0796)
+
+
+## 📚 Resources(Practice)
+- [PortSwigger - Directory Traversal](https://portswigger.net/web-security/file-path-traversal)
+- [OWASP - Directory Traversal](https://owasp.org/www-community/attacks/Path_Traversal)
+- [Acunetix - Directory Traversal](https://www.acunetix.com/websitesecurity/directory-traversal/)
+
+## 🧨 CVE Examples
+- [CVE-2017-5638](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5638) - Apache Struts
+- [CVE-2021-22986](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22986) - F5 BIG-IP
+- [CVE-2020-1938](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1938) - Apache Tomcat (Ghostcat)
+- [CVE-2020-36289](https://nvd.nist.gov/vuln/detail/CVE-2020-36289) - OpenAsset traversal with `....//....//`
+
 ## 🛡️ Prevention
 
 1. **Sanitize and Validate Input**  
@@ -63,15 +101,6 @@ Host: vulnerable-website.com
 5. **Perform Regular Audits**  
    - Conduct regular penetration testing, source code reviews, and use static analysis tools.
 
-## 📚 Resources
-- [PortSwigger - Directory Traversal](https://portswigger.net/web-security/file-path-traversal)
-- [OWASP - Directory Traversal](https://owasp.org/www-community/attacks/Path_Traversal)
-- [Acunetix - Directory Traversal](https://www.acunetix.com/websitesecurity/directory-traversal/)
-
-## 🧨 CVE Examples
-- [CVE-2017-5638](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5638) - Apache Struts
-- [CVE-2021-22986](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22986) - F5 BIG-IP
-- [CVE-2020-1938](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1938) - Apache Tomcat (Ghostcat)
-- [CVE-2020-36289](https://nvd.nist.gov/vuln/detail/CVE-2020-36289) - OpenAsset traversal with `....//....//`
-
+---
+## Happy hunting! 👾
 ---
