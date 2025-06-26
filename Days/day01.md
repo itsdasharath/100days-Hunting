@@ -13,7 +13,7 @@ Host: vulnerable-website.com
 ```
 ### Example URL
 ```bash
-https://tager.com/image?file=../../../../etc/passwd
+https://target.com/image?file=../../../../etc/passwd
 ``` 
 
 ## 🔐 Payload Cheat Sheet
@@ -53,8 +53,6 @@ https://tager.com/image?file=../../../../etc/passwd
 
 ### Dedicated Tools
 - [dotdotpwn](https://github.com/wireghoul/dotdotpwn) - Automated directory traversal tool  
-- [PathTraversalScanner](https://github.com/PathTraversalScanner) - Directory traversal scanner
-- [PathTraversal](https://github.com/PathTraversal) - Directory traversal tool
 
 ### Common Tools
 - [Burp Suite](https://portswigger.net/burp) - Web vulnerability scanner
@@ -103,5 +101,5 @@ ffuf -u https://vulnerable-website.com/image?filename=FUZZ -w /path/to/wordlist.
    - Conduct regular penetration testing, source code reviews, and use static analysis tools.
 
 ---
-## Happy hunting! 👾
----
+
+## 🎯 Happy Hunting! 👾
