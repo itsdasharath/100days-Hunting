@@ -41,6 +41,39 @@ https://target.com/config.php
 ## 📚 Practice & Learning Resources
 - [PortSwigger – Information Disclosure Vulnerabilities](https://portswigger.net/web-security/information-disclosure)
 
+## 🛡️ Prevention
+
+To prevent information disclosure vulnerabilities:
+
+1. **Disable Directory Listings**
+   - Ensure directory indexing is turned off on the web server (`Options -Indexes` in Apache or `autoindex off;` in Nginx).
+
+2. **Restrict Access to Sensitive Files**
+   - Use `.htaccess` or server config to block access to files like `.env`, `.git`, `config.php`, `backup.zip`.
+
+3. **Sanitize and Validate Input**
+   - Do not return file contents, debug data, or stack traces based on user input.
+   - Ensure proper access control on user-specific resources.
+
+4. **Remove Developer Artifacts**
+   - Strip comments, test scripts, and backup/config files before deploying to production.
+   - Remove `.git/`, `.svn/`, `.bak`, `.old`, and `.zip` files from publicly accessible directories.
+
+5. **Disable Verbose Error Messages**
+   - Show generic error messages to users; log detailed ones internally.
+   - Turn off `display_errors` in PHP, and equivalent settings in other languages/frameworks.
+
+6. **Secure Configuration**
+   - Disable debug mode in production (e.g., `DEBUG=False` in Django).
+   - Remove or protect access to debugging pages like `/phpinfo`, `/server-status`.
+
+7. **Use Strong Access Controls**
+   - Ensure proper authentication and authorization checks for all sensitive resources and endpoints.
+
+8. **Monitor and Audit**
+   - Use tools like Burp Suite, Nikto, or automated scanners to discover exposed files and information leaks.
+   - Regularly audit your source and deployment files for accidentally exposed data.
+
 ---
 
 ## 🎯 Happy Hunting! 👾

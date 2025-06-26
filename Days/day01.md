@@ -55,11 +55,11 @@ https://target.com/image?file=../../../../etc/passwd
 - [dotdotpwn](https://github.com/wireghoul/dotdotpwn) - Automated directory traversal tool  
 
 ### Common Tools
+- [Ffuf](https://github.com/ffuf/ffuf) - Fuzz faster U Fool
 - [Burp Suite](https://portswigger.net/burp) - Web vulnerability scanner
 - [OWASP ZAP](https://www.zaproxy.org/) - Open-source web application security scanner
 - [DirBuster](https://www.owasp.org/index.php/Category:DirBuster) - Directory brute-forcing tool
 - [Nikto](https://cirt.net/Nikto2) - Web server scanner
-- [Ffuf](https://github.com/ffuf/ffuf) - Fuzz faster U Fool
 
 ### Ffuf Example
 ```bash
