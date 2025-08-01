@@ -1,4 +1,4 @@
-# Directory Traversal / Path Traversal
+# Directory Traversal / Path Traversal Vulnerability
 
 ## Overview
 Directory traversal, also known as path traversal, is a security vulnerability that allows an attacker to access files and directories stored outside the intended web root folder. Exploiting this flaw may lead to unauthorized access to sensitive files, configuration files, or even system-level resources.
@@ -71,7 +71,7 @@ ffuf -u https://vulnerable-website.com/image?filename=FUZZ -w /path/to/wordlist.
 - [A Guide to Directory Traversal Vulnerability in 2024](https://medium.com/@certcube1/a-guide-to-directory-traversal-vulnerability-in-2024-50c5fafd0796)
 
 
-## 📚 Resources(Practice)
+## 📚 Practice & Learning Resources
 - [PortSwigger - Directory Traversal](https://portswigger.net/web-security/file-path-traversal)
 - [OWASP - Directory Traversal](https://owasp.org/www-community/attacks/Path_Traversal)
 - [Acunetix - Directory Traversal](https://www.acunetix.com/websitesecurity/directory-traversal/)
