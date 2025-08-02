@@ -1,12 +1,4 @@
-bug bounty day 05 
-
-did some more recon and found some imporatent thinngs and rest of the time learn authentication vulnerability on port swigger
-
-
-total hunting time 1 hrs 
-total learning time 8 hrs 
-
-## 🗓️ Bug Bounty Hunting Log – Day 5
+## 🗓️ Bug Bounty Hunting – Day 5
 
 Did some more reconnaissance on my current bug bounty target and found a few important things that will help narrow down the attack surface in the coming days.
 
