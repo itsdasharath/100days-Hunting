@@ -29,6 +29,7 @@ Reconnaissance is all about mapping the attack surface. Think of it as gathering
 
 - **Google Dorking** – Used advanced search operators for sensitive file discovery and exposed endpoints.
 - **Shodan** – Discovered internet-exposed services and open ports.
+- **Censys** – Similar to Shodan, but with a focus on certificate data and metadata.
 - **GitHub** – Searched for accidentally committed secrets, API keys, or config files.
 - **Wayback Machine** – Fetched historical snapshots of the website to discover deprecated or hidden paths.
 
@@ -38,6 +39,7 @@ Reconnaissance is all about mapping the attack surface. Think of it as gathering
 
 - **Gobuster** – Performed directory brute-forcing using wordlists.
   - Found several **403 Forbidden** responses which may contain valuable content behind weak protection.
+- **Assetfinder** – Used this tool to automate asset discovery and enumeration.
 
 ---
 

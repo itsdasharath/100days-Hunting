@@ -14,7 +14,9 @@ The goal of this challenge is to stay consistent and grow as a bug bounty learne
 |  2  | [Information disclosure vulnerabilities](./Days/day02.md)       |
 |  3  | [Race Conditions Vulnerability](./Days/day03.md)                |
 |  4  | [Reconnaissance/information gathering](./Days/day04.md)         |
-<!-- Continue adding rows as you progress -->
+|  5  | [Authentication Vulnerabilities](./Days/day05.md)               |
+
+
 
 ---
 
