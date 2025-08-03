@@ -108,3 +108,5 @@ Accounts get locked only when valid usernames are used with repeated incorrect p
 Today was more about leveling up knowledge than actively hunting. Understanding authentication flaws like 2FA bypass, account lock misuse, and response-based enumeration is vital. These are common in real-world apps, and I feel more confident tackling them on live targets now.
 
 ---
+
+## 🎯 Happy Hunting! 👾
