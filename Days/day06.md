@@ -1,4 +1,4 @@
-## 🗓️ Bug Bounty Hunting – Day 6
+# 🗓️ Bug Bounty Hunting – Day 6
 
 Today’s recon led me to an old, forgotten server that wasn’t listed in the official scope of my target. While I couldn’t report the issues due to scope limitations, I still spent a few hours testing it and uncovered multiple interesting vulnerabilities — including ways to bypass the Web Application Firewall (WAF).
 
@@ -36,3 +36,5 @@ The WAF in front of the forgotten server was blocking direct access to several i
 Although the bypass worked and led to useful information, the server was not in scope — so no report was filed. Still, this gave me hands-on insight into bypassing layered defenses.
 
 ---
+
+## 🎯 Happy Hunting! 👾

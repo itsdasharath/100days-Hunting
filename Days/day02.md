@@ -1,4 +1,6 @@
-# Information Disclosure vulnerability
+# Bug Bounty Hunting – Day 2
+
+## Information Disclosure vulnerability
 
 ## 🕵️ Overview
 Information disclosure vulnerabilities occur when an application unintentionally exposes sensitive information to unauthorized users. This can include configuration files, source code, database dumps, or any other data that should not be publicly accessible. Such vulnerabilities can lead to further attacks, including credential theft, system compromise, or data breaches.

@@ -1,4 +1,4 @@
-## 🗓️ Bug Bounty Hunting – Day 4
+# 🗓️ Bug Bounty Hunting – Day 4
 
 Today marked a turning point in my bug bounty journey — I finally selected my target for hunting. This gave my efforts a sense of direction and allowed me to begin one of the most crucial steps: **reconnaissance and information gathering**. This phase is like the foundation of any good hunt — the better the recon, the better the chance to find something valuable.
 

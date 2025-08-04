@@ -1,4 +1,6 @@
-# Race Conditions Vulnerability
+# Bug Bounty Hunting – Day 3
+
+## Race Conditions Vulnerability
 
 ## 🏁 Overview
 Race conditions occur when multiple processes or threads access shared resources concurrently, and the final outcome depends on the timing of their execution. This can lead to unexpected behavior, data corruption, or security vulnerabilities. Attackers can exploit race conditions to gain unauthorized access, escalate privileges, or manipulate application logic.

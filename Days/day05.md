@@ -1,4 +1,4 @@
-## 🗓️ Bug Bounty Hunting – Day 5
+# 🗓️ Bug Bounty Hunting – Day 5
 
 Did some more reconnaissance on my current bug bounty target and found a few important things that will help narrow down the attack surface in the coming days.
 

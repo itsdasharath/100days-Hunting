@@ -1,4 +1,6 @@
-# Directory Traversal / Path Traversal Vulnerability
+# Bug Bounty Hunting – Day 1
+
+## Directory Traversal / Path Traversal Vulnerability
 
 ## Overview
 Directory traversal, also known as path traversal, is a security vulnerability that allows an attacker to access files and directories stored outside the intended web root folder. Exploiting this flaw may lead to unauthorized access to sensitive files, configuration files, or even system-level resources.
