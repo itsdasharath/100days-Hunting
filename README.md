@@ -17,6 +17,7 @@ The goal of this challenge is to stay consistent and grow as a bug bounty learne
 |  5  | [Authentication Vulnerabilities](./Days/day05.md)                       |
 |  6  | [WAF Bypass & Subdomain Takeover](./Days/day06.md)                      |
 |  7  | [Exploited and Reported Subdomain Takeover](./Days/day07.md)            |
+|  8  | [Active Recon & Proxy Tricks](./Days/day08.md)                          |
 
 
 
