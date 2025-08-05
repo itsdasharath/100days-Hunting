@@ -7,6 +7,13 @@ I discovered a subdomain that appeared vulnerable to takeover. I spent most of t
 After thorough testing, I submitted the vulnerability to the responsible company via their disclosure program and am currently waiting for a response.
 
 ---
+### 🧰 Tools Used
+
+- **subzy** – For subdomain enumeration and takeover checks
+- **dnsrecon** – For DNS enumeration and verification
+- **curl** – For testing HTTP responses and service claims
+
+---
 
 ### 📚 Learning & Research
 
