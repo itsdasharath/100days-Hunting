@@ -1,4 +1,4 @@
-## 🗓️ Bug Bounty Hunting – Day 9
+# 🗓️ Bug Bounty Hunting – Day 9
 
 Today’s focus was purely on **enumeration** and target understanding.
 

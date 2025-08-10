@@ -19,6 +19,7 @@ The goal of this challenge is to stay consistent and grow as a bug bounty learne
 |  7  | [Exploited and Reported Subdomain Takeover](./Days/day07.md)            |
 |  8  | [Active Recon & Proxy Tricks](./Days/day08.md)                          |
 |  9  | [EndPoint Extraction / Documentation Reading](./Days/day09.md)          |
+| 10  | [Tech Stack Enumeration & Target Understanding](./Days/day10.md)                                 |
 
 
 
